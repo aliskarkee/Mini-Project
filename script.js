@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
 
         const city = document.getElementById('city').value;
-        const apiKey = 'c03ef4c2469bb7aa64f094b4d9e877fb'; // Your actual API key
+        const apiKey = 'c03ef4c2469bb7aa64f094b4d9e877fb'; 
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
         try {
